@@ -1,0 +1,1 @@
+import{t as p,a as s}from"../chunks/CAgQhE9W.js";import"../chunks/McyWsTYz.js";import{f as e,s as i}from"../chunks/xEC-817r.js";import"../chunks/BckA8q76.js";import{N as m,A as n}from"../chunks/DdPKDnCi.js";var b=p('<!> <p class="svelte-1wsp984">about about about about blah blah</p> <!>',1);function c(t){var a=b(),o=e(a);m(o);var r=i(o,4);n(r,{}),s(t,a)}export{c as component};

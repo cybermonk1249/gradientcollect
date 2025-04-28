@@ -1,0 +1,1 @@
+import{t,a as i}from"../chunks/CAgQhE9W.js";import{f as m,s as p,c as v,r as d}from"../chunks/xEC-817r.js";import"../chunks/BckA8q76.js";import{N as n,A as l}from"../chunks/DdPKDnCi.js";var f=t('<!> <div class="player svelte-ygoh0m"><!></div>',1);function _(s){var a=f(),r=m(a);n(r);var o=p(r,2),e=v(o);l(e,{}),d(o),i(s,a)}export{_ as component};
