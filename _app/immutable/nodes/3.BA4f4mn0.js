@@ -1,0 +1,1 @@
+import{t as o,a as r}from"../chunks/DpwFF9QA.js";import"../chunks/ENgPGeLZ.js";import{s as e}from"../chunks/F5ZbGyxr.js";import{b as m}from"../chunks/XdCDmfoC.js";var p=o("<a>home</a>");function b(t){var a=p();e(a,"href",`${m??""}/`),r(t,a)}export{b as component};
