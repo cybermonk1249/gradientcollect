@@ -3,17 +3,15 @@
     import { Hamburger } from 'svelte-hamburgers';
     import { fly } from 'svelte/transition';
 
-    import AudioPlayer from "$lib/AudioPlayer.svelte"
-
+    
     import Navbar from "$lib/Navbar.svelte"
+    import AudioPlayer from "$lib/AudioPlayer.svelte"
 
     let open = $state(false);
 
 </script>
 
-<Navbar>
-
-</Navbar>
+<Navbar></Navbar>
 
 <div class="player">
     <!-- icon -->
@@ -58,16 +56,16 @@
     
 
     .player {
-        position: static;
-        bottom: 0px;
+        /* position: static; */
+        /* bottom: 0px; */
 
-        width: 100vw ;
-        height: 4rem;
-        border-bottom: solid white;
+        /* width: 100vw ;
+        height: 4rem; */
+        /* border-bottom: solid white; */
         /* border-top: solid white; */
         
         /* background-image: url("/img/bluebg.jpg"); */
-        filter:grayscale(1.0);
+        /* filter:grayscale(1.0); */
     }
 
     
