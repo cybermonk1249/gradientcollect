@@ -12,6 +12,9 @@ import { RGBShiftShader } from 'three/addons/shaders/RGBShiftShader.js';
 import { DotScreenShader } from 'three/addons/shaders/DotScreenShader.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 
+import { base } from "$app/paths";
+
+
 let model = null;
 
 export const createScene = (element) => {
@@ -29,7 +32,7 @@ export const createScene = (element) => {
     const renderer = new THREE.WebGLRenderer( {antialias: true, canvas: element} );
     
     const loader = new GLTFLoader();
-    loader.load('/logoG3D.glb', function ( gltf ) {
+    loader.load('logo3d.glb', function ( gltf ) {
         model = gltf.scene;
         scene.add( model );
     }, undefined, function ( error ) {
