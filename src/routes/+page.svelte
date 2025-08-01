@@ -1,4 +1,6 @@
 <script>
+    // import { onMount  } from 'svelte';
+
     import { base } from "$app/paths";
     import { Hamburger } from 'svelte-hamburgers';
     import { fly } from 'svelte/transition';
@@ -6,18 +8,25 @@
     
     import Navbar from "$lib/Navbar.svelte"
     import AudioPlayer from "$lib/AudioPlayer.svelte"
+    
+
+    import GThree from "$lib/GThree.svelte"
 
     let open = $state(false);
+    
+    
 
 </script>
 
 <Navbar></Navbar>
 
+<div id="grdlogo">
+    <GThree></GThree>
+</div>
+
 <div class="player">
     <!-- icon -->
-     <AudioPlayer>
-
-     </AudioPlayer>
+     <AudioPlayer></AudioPlayer>
 </div>
 
 <!-- <p> paragraph </p> -->
@@ -55,18 +64,6 @@
     }
     
 
-    .player {
-        /* position: static; */
-        /* bottom: 0px; */
-
-        /* width: 100vw ;
-        height: 4rem; */
-        /* border-bottom: solid white; */
-        /* border-top: solid white; */
-        
-        /* background-image: url("/img/bluebg.jpg"); */
-        /* filter:grayscale(1.0); */
-    }
-
+    
     
 </style>

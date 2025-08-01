@@ -23,6 +23,7 @@
 		"howler": "^2.2.4",
 		"music-metadata": "^11.2.1",
 		"svelte-hamburgers": "^5.0.0",
+		"three": "^0.179.0",
 		"util": "^0.12.5"
 	}
 }
